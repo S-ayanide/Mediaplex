@@ -17,7 +17,7 @@ const Login = () => {
     const doc = {
       _id: googleId,
       _type: 'user',
-      username: name,
+      userName: name,
       image: imageUrl,
     }
 
