@@ -58,6 +58,13 @@ const Sidebar = ({ closeToggle, user }) => {
           ))}
         </div>
       </div>
+      <div
+        className={`${isNotActiveStyle} absolute bottom-20 text-sm antialiased hover:subpixel-antialiased`}
+      >
+        <a target="_blank" href="https://coindrop.to/sayanide">
+          Support my work ❤️
+        </a>
+      </div>
       {user && (
         <Link
           to={`user-profile/${user._id}`}
